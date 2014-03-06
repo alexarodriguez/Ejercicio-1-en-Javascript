@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+ <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Pasos en Javascript</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+<header>
+	<h3>Mis ejercicios en Javascript</h3>
+	<h4>Ejercicio 1: Par o Impar </h4>
+</header>
+
+<script type="text/javascript">
+
+ document.write('Introduce un número<input type="text" name="numero" id="numero"/>'); 
+
+function validar ()
+{
+ var dato=document.getElementById('numero').value; 
+ if (dato>=0) {
+ if (dato%2==0 )
+  document.getElementById('resultado').value = 'El numero '+dato+' es par'; 
+ else 
+  document.getElementById('resultado').value = 'El numero '+dato+' es impar'; 
+ }
+
+}
+
+ document.writeln('<input type="button" name="btn_validar" id="btn_validar" value="Obtener Resultado" onClick="validar()" />'); 
+ document.writeln('<br/>Resultado <input type="text" size="80px"name="resultado" id="resultado"/>');
+</script>
+
+<footer>
+
+	<h4>UNIVERSIDAD DE CUNDINAMARCA EXTENSION CHIA</h4>
+	<h4>INGENIERIA DE SISTEMAS</h4>
+	<h4>COMPUTACION GRAFICA- SEMESTRE 5</h4>
+	<h4>NOMBRE:JEIMY ALEXANDRA RODRIGUEZ RODRIGUEZ</h4>
+	<h4>codigo: 561212145</h4>
+</footer>
+</body>
+</html>
