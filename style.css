@@ -1,0 +1,24 @@
+/*reglas pagina*/
+body{
+	background-color: #06ECFF;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+footer{
+	margin-top: 100px;
+	text-align: center;
+	background-color:white;
+	
+}
+footer h4{
+	margin-top: 10px;
+	text-align: center;
+	
+}
+#btn_validar{
+	background-color: #C001FF;
+}
